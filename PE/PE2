@@ -1,0 +1,47 @@
+E-commerce Customer Review Sentiment Analysis 
+
+1. Introduction
+This project focuses on understanding customer opinions about products and services in an online shopping platform. Using prompt engineering,
+customer reviews are automatically analyzed and classified into Positive, Negative, or Neutral sentiments. This helps the company understand customer experiences,
+identify problems, and improve customer satisfaction.
+
+2. Prompt
+I will provide customer reviews from an online shopping platform. Read each review carefully and identify the overall sentiment expressed by the customer.
+
+Classify the review into one of these three categories:
+- Positive: The customer is satisfied or expresses a good opinion.
+- Negative: The customer is disappointed or expresses dissatisfaction.
+- Neutral: The customer shares information without expressing a clear positive or negative opinion.
+Return only one sentiment category: Positive, Negative, or Neutral.
+
+3. Sample Inputs and Expected Outputs
+
+The headphones have amazing sound quality, and I am very happy with my purchase.
+Positive
+
+The shoes started tearing after just two days of use.
+Negative
+
+I received my order this morning.
+Neutral
+
+The seller was polite and delivered the product before the expected date.
+Positive
+
+The laptop gets overheated and shuts down frequently.
+Negative
+
+The package contains a blue shirt and a pair of jeans.
+Neutral
+
+I am impressed with the packaging and the overall shopping experience.
+Positive
+
+The fabric quality is poor, and the size is completely different from the description.
+Negative
+
+The product comes with a one-year warranty.
+Neutral
+
+This is my third purchase from this store, and every experience has been wonderful.
+Positive
