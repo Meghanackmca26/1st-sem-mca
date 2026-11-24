@@ -8,7 +8,6 @@ I will provide customer queries from an e-commerce company. Read and understand 
 Delivery, Shipping, Refund, Payment, Cancellation, Defect, Return, Account, or Unknown.
 
 3. Sample Inputs and Expected Outputs
-
 1. Input:I placed an order last week, but it hasn't reached me.
 Expected Output:
 Delivery
