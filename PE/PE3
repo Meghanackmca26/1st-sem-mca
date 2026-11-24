@@ -1,0 +1,44 @@
+Customer Query Urgency Classification
+
+Introduction:
+This project aims to identify how urgent a customer's problem is by analyzing their queries. 
+It helps the customer support team understand which problems need immediate attention and which can be handled later.
+Based on the customer's query, the system classifies the urgency into three categories: High, Medium, and Low. 
+This makes it easier for the company to manage customer requests and provide support at the right time.
+
+Prompt:
+Read the given customer query carefully and identify how urgent the problem is. Based on the customer's issue, 
+classify it into High, Medium, or Low. If the problem needs immediate attention, give High. If it needs attention but is not very urgent, 
+give Medium. If it is a normal question or a less important issue, give Low. Provide only the urgency level without any explanation or additional text.
+
+Sample Inputs and Expected Outputs
+Someone has accessed my account without my permission and changed my password.
+High
+
+My business website is not working, and I am losing customers.
+High
+
+I received the wrong product instead of the one I ordered.
+Medium
+
+I want to know how to apply a discount coupon.
+Low
+
+My payment was deducted, but the order was not confirmed.
+High
+
+I need to update the phone number linked to my account.
+Low
+
+My replacement request has been pending for four days.
+Medium
+
+I am unable to access an important document stored in my account.
+High
+
+
+Low
+
+My order is scheduled for delivery tomorrow, but I need to correct the delivery address.
+
+Medium
