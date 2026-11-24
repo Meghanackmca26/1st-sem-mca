@@ -1,0 +1,52 @@
+Introduction:
+This project aims to check whether all the required details are provided by a customer before booking a flight.
+Sometimes customers may forget to mention important information such as travel date, number of passengers, or travel class. 
+Using prompt engineering, the system identifies the available details, finds the missing information, and asks the customer 
+to provide it. This helps make the flight booking process easier and avoids incomplete bookings.
+
+Prompt:
+Read the customer's message carefully and identify the flight booking details provided. Check whether all the
+required information is available, including Passenger Name, Departure City, Destination City, Travel Date, Number of 
+Passengers, and Travel Class.
+Display the available information and mark any missing field as Missing.
+If some details are missing, ask the customer to provide only those missing details. 
+Do not guess or assume any information that the customer has not provided.
+
+Sample Inputs and Expected Outputs
+
+1. Input:
+My name is Priya. I need a flight from Mumbai to Chennai on 15 December 2026 for two passengers in Economy class.
+
+Passenger Name: Priya
+Departure City: Mumbai
+Destination City: Chennai
+Travel Date: 15 December 2026
+Number of Passengers: 2
+Travel Class: Economy
+
+2. Input:
+I am Arjun. I want to travel from Hyderabad to Pune.
+
+Expected Output:
+Passenger Name: Arjun
+Departure City: Hyderabad
+Destination City: Pune
+Travel Date: Missing
+Number of Passengers: Missing
+Travel Class: Missing
+
+Which travel class do you prefer: Economy, Premium Economy, Business, or First Class?
+
+3. Input:
+My name is Sneha. I want to book a flight from Kochi to Goa on 20 December 2026.
+
+Expected Output:
+Passenger Name: Sneha
+Departure City: Kochi
+Destination City: Goa
+Travel Date: 20 December 2026
+Number of Passengers: Missing
+Travel Class: Missing
+
+
+
