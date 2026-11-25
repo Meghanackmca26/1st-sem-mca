@@ -1,0 +1,111 @@
+Context-Aware Email Generation
+
+Introduction:
+This project aims to generate professional emails based on the user's needs and situations. 
+The user can provide details such as the purpose of the email, who it is addressed to, the tone, and the required length. 
+The system uses these details to create a suitable email. It helps users save time and makes email writing easier and more convenient.
+
+Prompt:
+Write an email based on the situation and instructions provided by the user.
+Make sure the email follows the requested tone, word limit, and format. Keep the content clear, polite, 
+and relevant to the given situation. Do not add any personal details or information that the user has not provided. 
+If any important information is missing, use suitable placeholders instead of making assumptions. Generate only the email.
+
+Sample Inputs and Expected Outputs
+1. Input:
+
+Write an email to my professor requesting an extension for submitting my assignment due to illness. Keep it polite and professional, within 50 words.
+Subject: Request for Assignment Extension
+
+Dear Professor,
+
+I kindly request an extension for submitting my assignment as I have been unwell. Please consider my request and allow me some additional time.
+
+Thank you for your understanding.
+
+Best regards
+
+2. Input:
+Write an email to the HR department asking about the status of my job application. Keep it formal and short.
+Subject: Job Application Status
+
+Dear HR Team,
+
+I would like to know the current status of my job application. Kindly provide an update when convenient.
+
+Thank you for your time.
+
+Best regards
+
+3. Input:
+
+Write an email to my manager requesting permission to work from home for one day due to personal reasons. Use a polite tone.
+Subject: Work From Home Request
+
+Dear Manager,
+
+I would like to request permission to work from home for one day due to personal reasons. Kindly consider my request.
+
+Thank you for your understanding.
+
+Best regards
+
+4. Input:
+
+Write an email to a customer apologizing for a delay in delivering their order. Keep it professional and polite.
+
+Subject: Apology for Delivery Delay
+
+Dear Customer,
+
+We sincerely apologize for the delay in delivering your order. We understand the inconvenience caused and appreciate your patience.
+
+Thank you for your understanding.
+
+Best regards
+
+5. Input:
+
+Write an email to my college principal requesting permission to organize a technical event. Keep it formal.
+
+Expected Output:
+
+Subject: Request for Permission to Organize a Technical Event
+
+Respected Principal,
+
+I would like to request permission to organize a technical event in our college. Kindly consider our request and grant us approval.
+
+Thank you.
+
+Yours faithfully
+
+6. Input:
+
+Write an email to my team members reminding them about tomorrow's project meeting. Keep it friendly and professional.
+
+Subject: Reminder for Project Meeting
+
+Dear Team,
+
+This is a friendly reminder about our project meeting scheduled for tomorrow. Please make sure to attend on time.
+
+Thank you.
+
+Best regards
+
+7. Input:
+
+Write an email to a company asking for information about internship opportunities for MCA students. Keep it formal and concise.
+
+Expected Output:
+
+Subject: Inquiry About Internship Opportunities
+
+Dear Sir/Madam,
+
+I would like to know whether your company offers internship opportunities for MCA students. Kindly share the details and application process.
+
+Thank you for your time.
+
+Best regards
