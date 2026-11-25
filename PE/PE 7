@@ -1,0 +1,46 @@
+
+Medical Triage Classification
+
+Introduction:
+This project aims to identify how serious a patient's health problem is by analyzing the symptoms they describe. 
+It helps classify patient queries into different urgency levels so that healthcare professionals can understand which 
+patients need immediate attention. Based on the symptoms, the system provides one of four categories: EMERGENCY, URGENT, ROUTINE, or INSUFFICIENT_DATA.
+
+Prompt:
+Read the patient's query carefully and identify the seriousness of the symptoms.
+Classify the query into EMERGENCY, URGENT, ROUTINE, or INSUFFICIENT_DATA based on the given triage rules. 
+If the symptoms indicate a life-threatening condition, choose EMERGENCY. If the patient needs medical attention soon, choose URGENT. 
+For mild symptoms or general health questions, choose ROUTINE. If there is not enough information to identify the urgency, choose INSUFFICIENT_DATA. 
+Never assume symptoms that the patient has not mentioned. If emergency symptoms are reported, prioritize emergency care. Return only one category without any explanation or additional text.
+
+Sample Inputs and Expected Outputs
+
+I suddenly feel very weak on one side of my body and cannot speak clearly.
+EMERGENCY
+
+I have been experiencing a fever along with a sore throat for two days.
+URGENT
+
+I have a slight cough, but I can do my daily activities normally. 
+ROUTINE
+
+I suddenly developed severe breathing difficulty while walking.
+EMERGENCY
+
+I have been feeling nauseous and have vomited several times today.
+URGENT
+
+I want to know how often I should have a general health checkup.
+ROUTINE
+
+I have a small skin rash that does not cause any pain.
+ROUTINE
+
+I am experiencing sudden severe abdominal pain.
+EMERGENCY
+
+I have been feeling sick for some time.
+INSUFFICIENT_DATA
+
+I have a mild headache and feel slightly tired today.
+ROUTINE
