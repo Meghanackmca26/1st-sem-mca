@@ -1,0 +1,35 @@
+Introduction:
+This project aims to check whether a student is eligible for a scholarship based on their academic score and annual family income.
+The system checks both details according to the given eligibility rules and provides the result. It helps the university identify eligible 
+students easily and reduces the time required for manually checking scholarship applications.
+
+Prompt:
+Check the student's academic score and annual family income using the given scholarship eligibility criteria.
+A student is eligible only if their academic score is at least 85% and their annual family income is ₹3,00,000 or less.
+Both conditions must be satisfied to qualify for the scholarship. If any required information is missing, return INSUFFICIENT_DATA. Otherwise,
+return ELIGIBLE or NOT_ELIGIBLE based on the criteria. Provide only the correct result without any explanation or additional text.
+
+Sample Inputs and Expected Outputs
+Sample Input	Expected Output
+Score: 88%, Income: ₹2,80,000	
+ELIGIBLE
+
+Score: 82%, Income: ₹1,50,000	
+NOT_ELIGIBLE
+
+Score: 92%, Income: ₹3,50,000	
+NOT_ELIGIBLE
+
+Score: 85%, Income: ₹3,00,000	
+ELIGIBLE
+
+Score: 78%, Income: ₹3,50,000	
+NOT_ELIGIBLE
+
+Score: 96%, Income: ₹2,20,000	
+ELIGIBLE
+
+Score: 90%, Income not provided	INSUFFICIENT_DATA
+Score not provided, Income: ₹1,80,000	INSUFFICIENT_DATA
+Score and income not provided	INSUFFICIENT_DATA
+Score: 84%, Income: ₹2,50,000	NOT_ELIGIBLE
