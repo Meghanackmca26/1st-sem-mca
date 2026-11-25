@@ -1,0 +1,44 @@
+Intelligent Meeting Scheduler
+
+Introduction:
+
+This project aims to find a suitable time for scheduling meetings based on the availability of all participants. 
+The system checks the available time slots, meeting duration, and other scheduling conditions before selecting a meeting time. 
+It helps companies save time and avoid scheduling conflicts by choosing a slot that meets all the given requirements.
+
+Prompt:
+Check the available time slots and scheduling conditions carefully. 
+Select a suitable meeting time that matches the required meeting duration and the availability of all participants.
+Make sure the meeting does not conflict with anyone's schedule and follows the given time restrictions. Select only from the provided slots. 
+Do not assume or create any availability information. If no suitable time is available, return NO_AVAILABLE_SLOT. Provide only the selected time slot 
+or NO_AVAILABLE_SLOT without any explanation.
+
+
+Sample Inputs and Expected Outputs
+Available Slots: 9:00 AM – 10:00 AM, 11:00 AM – 12:00 PM. Duration: 1 hour. All participants are available from 11:00 AM to 12:00 PM.
+11:00 AM – 12:00 PM
+
+Available Slots: 10:00 AM – 11:00 AM, 1:00 PM – 2:00 PM. Duration: 1 hour. Manager is unavailable from 10:00 AM to 11:00 AM. 
+1:00 PM – 2:00 PM
+
+Available Slots: 9:00 AM – 10:00 AM, 2:00 PM – 3:00 PM. Duration: 1 hour. All participants are available only from 9:00 AM to 10:00 AM.
+9:00 AM – 10:00 AM
+
+Available Slots: 10:00 AM – 10:30 AM, 2:00 PM – 3:00 PM. Duration: 1 hour. 
+2:00 PM – 3:00 PM
+
+Available Slots: 9:00 AM – 10:00 AM, 11:00 AM – 12:00 PM. Duration: 1 hour. All participants are unavailable during both slots.
+NO_AVAILABLE_SLOT
+
+Available Slots: 1:00 PM – 2:00 PM, 3:00 PM – 4:00 PM. Duration: 1 hour. Meetings must finish before 4:00 PM. All participants are available in both slots.
+1:00 PM – 2:00 PM
+
+Available Slots: 10:00 AM – 11:00 AM, 2:00 PM – 3:00 PM. Duration: 2 hours.
+NO_AVAILABLE_SLOT
+
+Available Slots: 9:00 AM – 10:00 AM, 12:00 PM – 1:00 PM. Duration: 1 hour. One participant is unavailable from 12:00 PM to 1:00 PM.
+9:00 AM – 10:00 AM
+
+Available Slots: 11:00 AM – 12:00 PM, 2:00 PM – 3:00 PM. Duration: 1 hour. Manager is unavailable from 11:00 AM to 12:00 PM.
+2:00 PM – 3:00 PM
+
