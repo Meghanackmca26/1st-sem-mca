@@ -1,0 +1,27 @@
+Introduction:
+This project helps students convert their project details, internship experience, and achievements into professional resume bullet points.
+The user can provide information in simple sentences, and the system converts it into clear and ATS-friendly statements. It highlights the work completed, 
+the tools used, the results achieved, and the benefits. It also avoids adding any false information or achievements.
+
+Prompt:
+Convert the information provided by the user into professional and ATS-friendly resume bullet points. Explain what was accomplished, 
+how it was done, what measurable impact was achieved, and what benefit it delivered. Use strong action verbs and relevant technical terms. 
+Include numbers only when they are provided in the input. Never create false achievements or statistics. If measurable details are not available,
+write a meaningful bullet point using the available information and mention which metrics could make it stronger. Generate a maximum of two concise bullet points.
+
+Sample Inputs and Expected Outputs
+
+1. I created a student attendance management system using Java. It stores student attendance and allows teachers to check attendance records.
+Developed a Java-based Student Attendance Management System to store and manage student attendance records, helping teachers track attendance more easily. Metrics to strengthen: Number of students and time saved.
+
+2. I completed a Python internship where I worked on data cleaning using Pandas. I cleaned 5,000 records and removed duplicate entries.	
+Cleaned and processed 5,000 records using Python and Pandas, removing duplicate entries and improving the quality of the dataset.
+
+3. I built a personal portfolio website using HTML, CSS, and JavaScript. It displays my skills, projects, and contact details.	
+Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase technical skills, projects, and contact information. Metrics to strengthen: Number of visitors and supported devices.
+
+4. I developed a library management system using Python and MySQL. It manages book details, student information, and book issue records.
+Developed a Library Management System using Python and MySQL to manage book details, student records, and book issue information, simplifying library record management. Metrics to strengthen: Number of books and users managed.
+
+5. I worked on a sales dashboard using Power BI. It displays monthly sales, revenue, and product performance.	
+Created a Power BI sales dashboard to visualize monthly sales, revenue, and product performance, making business data easier to understand. Metrics to strengthen: Number of records analyzed and reporting time saved.
